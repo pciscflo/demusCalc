@@ -1,0 +1,10 @@
+<div class="container">
+   <h1>Calcular Pago por consumo</h1>
+   <div>
+     <p>Ingrese consumo</p>
+     <input type="text" [(ngModel)]="consumo" class="form-control" placeholder="consumo"/>
+     <button (click)="calcularPago()" class="btn btn-primary">Calcular</button>
+     <p>Total a Pagar:</p>
+     <p>{{pago}}</p>
+   </div>
+</div>
